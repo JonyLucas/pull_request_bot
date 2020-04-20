@@ -30,6 +30,10 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
+client.on('ready', () =>{
+    console.log("The bot is running.");
+})
+
 client.on('message', (msg) => {
 
     if (msg.content.includes('#criar_pull_request')) {
