@@ -8,7 +8,9 @@ client.commands = new Discord.Collection();
 const executeArgs = {
     messageArgs: [],
     available: [],
-    busy: []
+    busy: [],
+    all: [],
+    sender: ""
 }
 
 fs.readFile('./data/usuarios.json', 'utf8', (err, jsonString) => {
@@ -18,6 +20,7 @@ fs.readFile('./data/usuarios.json', 'utf8', (err, jsonString) => {
     const data = JSON.parse(jsonString);
     executeArgs.available = data.availableUsers;
     executeArgs.busy = data.busyUsers;
+    executeArgs.all = executeArgs.available.concat(executeArgs.busy);
     
 });
 
@@ -36,10 +39,12 @@ client.on('ready', () =>{
 
 client.on('message', (msg) => {
 
-    if (msg.content.includes('#criar_pull_request')) {
-        let subMessage = msg.content.substring(msg.content.indexOf('#criar_pull_request'));
-        let messageArgs = subMessage.split(/ +/);
+    if (msg.content.includes('Novo pull request foi criado para aprovação')) { // #criar_pull_request
+        let subMessage = msg.content.substring(msg.content.indexOf('Novo pull request foi criado para aprovação'));
+        let messageArgs = subMessage.split(" - ");
         executeArgs.messageArgs = messageArgs;
+        let prCreator = msg.embeds[0].fields[0].value;
+        executeArgs.sender = executeArgs.all.find(x => prCreator == x.fullname);
         client.commands.get('criar_pull_request').execute(msg, executeArgs);
 
     } else if (msg.content.includes("#merge_pull_request")) {

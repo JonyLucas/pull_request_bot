@@ -1,1 +1,60 @@
-{"availableUsers":[],"busyUsers":[{"userid":"<@690268470301950014>","username":"@georgelima1","pullRequestId":"96"},{"userid":"<@690243766912548939>","username":"@Kleiton","pullRequestId":"96"},{"userid":"<@690216672044515416>","username":"@Wandson","pullRequestId":"94"},{"userid":"<@690236483495395351>","username":"@Lucas Ramos","pullRequestId":"94"},{"userid":"<@358649670077120524>","username":"@LeonnyLino","pullRequestId":"95"},{"userid":"<@352620840317222912>","username":"@joaolucas","pullRequestId":"95"},{"userid":"<@690245016970723511>","username":"@dpereirac","pullRequestId":"99"},{"userid":"<@690252048217669702>","username":"@ifbomfim","pullRequestId":"99"},{"userid":"<@690245748075659437>","username":"@Rinaldo","pullRequestId":"100"},{"userid":"<@543150113686814731>","username":"@celovivas","pullRequestId":"100"}]}
+{
+    "availableUsers": [
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<@766738664659091487>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@Jorge Ori",
+            "pullRequestId": "4630",
+            "fullname": "Jorge Tsutomu Ori"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<<<<<@426362768602431500>>>>>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@Lamunier Costa",
+            "pullRequestId": "4683",
+            "fullname": "Lamunier Costa dos Santos"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<<<@689112598599434240>>>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@Felipe Burégio",
+            "pullRequestId": "4668",
+            "fullname": "Felipe Burégio Viana"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<<@406853980417949717>>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@João Paulo Lira",
+            "pullRequestId": "4680",
+            "fullname": "João Paulo Lira da Silva"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<@352620840317222912>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@joaolucas",
+            "pullRequestId": "4694",
+            "fullname": "João Lucas Fabião Amorim"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<@231970352878583808>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@Marcos Vinicius",
+            "pullRequestId": "4694",
+            "fullname": "Marcos Vinicius de Araujo Souza Peixoto"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<<<<@253539259661811712>>>>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@Jeff Carvalho",
+            "pullRequestId": "4698",
+            "fullname": "Jeferson Felix de Carvalho Junior"
+        },
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<<<@766822418156879923>>>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@Ricardo Esperidião",
+            "pullRequestId": "4698",
+            "fullname": "Ricardo Esperidião"
+        }
+    ],
+    "busyUsers": [
+        {
+            "userid": "<<<<<<<<<<<<<<<<<<<<<<<<<@599219555344056331>>>>>>>>>>>>>>>>>>>>>>>>>",
+            "username": "@pedroluizbezerra",
+            "pullRequestId": "FERIAS",
+            "fullname": "Pedro Luiz Bezerra Filho"
+        }
+    ]
+}
